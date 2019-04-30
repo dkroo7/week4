@@ -1,0 +1,10 @@
+asg_1/.idea/
+asg_1/venv/
+asg_1/test.py
+ui_test/POM_hiway_asg/venv
+ui_test/POM_hiway_asg/.idea/
+ui_test/POM_hiway_asg/__pycache__/
+ui_test/POM_hiway_asg/pages/__pycache__/
+ui_test/POM_hiway_asg/venv/
+ui_test/chromedriver_linux64/
+
