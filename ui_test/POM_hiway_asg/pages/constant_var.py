@@ -43,3 +43,7 @@ TIMESHEET_BAR_COLOR_XPATH = '//div[@class="md-bar md-bar2"]'
 TIMESHEET_ADD_BTN_XPATH = '//div[@class="md-bar md-bar2"]'
 TIMESHEET_NO_ENTRY_MSG_XPATH = '//div[@ng-if="timeEntry.length == 0"]/i'
 TIMESHEET_USERNAME_XPATH = '//div[@class="md-title mobile-heading layout-align-center-center layout-row"]/h2'
+
+HIWAY_LOG_FILE_NAME = 'Selenium_Log.log'
+LOGGER_LOG_ENTRY_FORMAT = '%(asctime)s: %(levelname)s %(message)s'
+LOGGER_DATE_ENTRY_FORMAT = '%d/%m/%y %I:%M:%S %p'
