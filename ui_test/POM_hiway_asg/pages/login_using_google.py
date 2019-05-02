@@ -18,7 +18,7 @@ class LoginWithGoogle(BasePage):
         self.driver.find_element_by_css_selector(START_USING_HIWAY_BTN).click()
 
     def verify_login_success(self):
-        return self.driver.find_element_by_xpath(TIMESHEET_TAB_BTN).size() != 0
+        return len(self.driver.find_element_by_xpath(TIMESHEET_TAB_BTN)) != 0
 
     def login_hiway(self):
         self.click_login_with_google_btn()
